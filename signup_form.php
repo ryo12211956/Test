@@ -2,11 +2,11 @@
 session_start();
 
 require_once '../functions.php';
-require_once '../classes/UserLogic.php';
+require_once '../classes2/UserLogic.php';
 
 $result = UserLogic::checkLogin();
 if($result) {
-  header('Location: mypage.php');
+  header('Location: login.php');
   return;
 }
 
@@ -47,6 +47,6 @@ unset($_SESSION['login_err']);
     <input type="submit" value="新規登録">
   </p>
   </form>
-  <a href="/public/login_form.php">ログインする</a>
+  <a href="/tennis/login_form.php">ログインする</a>
 </body>
 </html>

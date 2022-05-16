@@ -1,4 +1,5 @@
 <?php
+include 'includes/login.php';
   $msg = null;  // アップロード状況を表すメッセージ
   $alert = null;  // メッセージのデザイン用
 

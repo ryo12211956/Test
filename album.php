@@ -1,4 +1,5 @@
 <?php 
+  include 'includes/login.php';
   $images = array();  // 画像ファイルのリストを格納する配列
   $num = 4; // 1ページに表示する画像の枚数
 

@@ -1,7 +1,6 @@
 <?php
 session_start();
-
-require_once '../classes/UserLogic.php';
+require_once '../classes2/UserLogic.php';
 
 // エラーメッセージ
 $err = [];
@@ -39,6 +38,6 @@ if (!$result) {
 <body>
 <h2>ログイン完了</h2>
 <p>ログインしました！</p>
-<a href="./mypage.php">マイページへ</a>
+<a href="index.php">マイページへ</a>
 </body>
 </html>

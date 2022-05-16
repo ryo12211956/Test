@@ -1,4 +1,5 @@
 <?php
+include 'includes/login.php';
   $fp = fopen("info.txt", "r"); // ファイルを開く
   $line = array();  // ファイル内容を1行ずつ要素に格納するための配列を用意
   $body = '';       // 本文を格納するための変数
